@@ -10,13 +10,34 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div id="sidebar">
+        <ul>
+            <li><a href="#premium">Instalación Premium</a></li>
+            <li><a href="#premium-paso1">Paso 1: Instalación de Launcher</a></li>
+            <li><a href="#premium-paso2">Paso 2: Crear Instancia</a></li>
+            <li><a href="#premium-paso3">Paso 3: Configurar Instancia</a></li>
+            <li><a href="#premium-paso4">Paso 4: Agregar Mods Extras</a></li>
+            <li><a href="#premium-paso5">Paso 5: Jugar</a></li>
+            <li><a href="#no-premium">Instalación No Premium</a></li>
+            <li><a href="#no-premium-paso1">Paso 1: Instalación de Launcher</a></li>
+            <li><a href="#no-premium-paso2">Paso 2: Crear Instancia</a></li>
+            <li><a href="#no-premium-paso3">Paso 3: Configurar Instancia</a></li>
+            <li><a href="#no-premium-paso4">Paso 4: Agregar Mods Extras</a></li>
+            <li><a href="#no-premium-paso5">Paso 5: Jugar</a></li>
+            <li><a href="#extras">Extras</a></li>
+            <li><a href="#extras-paso1">Configuración para mejor rendimiento</a></li>
+            <li><a href="#extras-paso2">Configuración para mejora visual</a></li>
+            <li><a href="#extras-paso3">Configuración para rendimiento + visual</a></li>
+        </ul>
+    </div>
+    
     <header>
         <h1>Guía de Instalación Noxmera</h1>
         <img src="images/image4.png" class="logo" alt="Logo Noxmera">
     </header>
-    <section>
+    <section id="premium">
         <h2>Instalación Usuarios Premium</h2>
-        <h3>Paso 1: Instalación de Launcher</h3>
+        <h3 id="premium-paso1">Paso 1: Instalación de Launcher</h3>
         <p>Ingresamos a la página oficial de <a href="https://www.curseforge.com/download/app">CurseForge</a> y descargamos el launcher utilizando Overwolf.</p>
         <img src="images/image3.png" class="download" alt="Descargar CurseForge">
         <p>Una vez abierto el programa podremos leer la bienvenida que nos da CurseForge o simplemente saltar dicha introducción.</p>
@@ -24,7 +45,7 @@
         <p>En caso de querer iniciar sesión lo hacemos, de lo contrario continuamos como invitados (Continue as guest).</p>
         <img src="images/image5.png" alt="" class="guest">
         <br><br>
-        <h3>Paso 2: Crear Instancia</h3>
+        <h3 id="premium-paso2">Paso 2: Crear Instancia</h3>
         <p>Lo primero que veremos será una gran variedad de juegos, el que necesitamos en este caso es Minecraft.</p>
         <img src="images/image30.png" alt="" class="minecraft">
         <p>Una vez elijamos la ruta de instalación podremos buscar el modpack deseado presionando en Browse Modpacks.</p>
@@ -33,7 +54,7 @@
         <img src="images/image27.png" alt="" class="bmc5p">
         <p>Presionaremos en Install y esperamos a que se descargue completamente.</p>
         <br><br>
-        <h3>Paso 3: Configurar Instancia</h3>
+        <h3 id="premium-paso3">Paso 3: Configurar Instancia</h3>
         <p>Una vez todo instalado le asignaremos más RAM a nuestra instancia, esto debido a la cantidad de mods y el mal rendimiento que tiene Java.</p>
         <img src="images/image7.png" alt="" class="ram">
         <p>Dentro de Profile Options desmarcamos la casilla “Use System Memory Settings”.</p>
@@ -63,29 +84,29 @@
         </table>
         <img src="images/image20.png" alt="" class="ram2">
         <br>
-        <h3>Paso 4: Agregar Mods Extras</h3>
+        <h3 id="premium-paso4">Paso 4: Agregar Mods Extras</h3>
         <p>Una vez asignada la memoria, agregaremos los mods extras a la instancia, para esto abriremos la carpeta del modpack.</p>
         <img src="images/image28.png" alt="" class="mods">
         <p>Entramos a la carpeta de mods y pegaremos los 4 mods que están en el canal de Discord a la carpeta mods.</p>
         <img src="images/image9.png" alt="" class="mods2">
         <img src="images/image10.png" alt="" class="mods3">
         <img src="images/image16.png" alt="" class="mods4">
-        <h3>Paso 5: Jugar</h3>
+        <h3 id="premium-paso5">Paso 5: Jugar</h3>
         <p>Para finalizar la configuración Premium iremos a multiplayer y añadiremos el server con la IP: noxmera.holy.gg</p>
         <img src="images/image24.png" alt="" class="server">
     </section>
     <br><br>
-    <section class="no-premium">
+    <section id="no-premium" class="no-premium">
         <div class="container">
             <h2>Instalación Usuarios No Premium</h2>
-            <h3>Paso 1: Instalación de Launcher</h3>
+            <h3 id="no-premium-paso1">Paso 1: Instalación de Launcher</h3>
             <p>Ingresamos a la página oficial de <a href="https://skmedix.pl/es/downloads">SKLauncher</a> y descargamos la versión de Windows con su .exe.</p>
             <img src="images/image22.png" alt="">
             <p>Debido a que el launcher es No Premium tendremos que presionar en Offline mode (modo sin conexión).</p>
             <img src="images/image17.png" alt="">
             <p>Dentro del input pondremos el nick que queremos tener en el juego.</p>
             <img src="images/image15.png" alt="">
-            <h3>Paso 2: Crear Instancia</h3>
+            <h3 id="no-premium-paso2">Paso 2: Crear Instancia</h3>
             <p>Lo primero que veremos será un menú con opciones, lo que haremos será ir al administrador de instalaciones.</p>
             <img src="images/image8.png" alt="">
             <p>Dentro del administrador seleccionamos Modpacks y buscamos el Better MC, en este caso escribiremos BMC5.</p>
@@ -93,7 +114,7 @@
             <p>Presionamos en Install latest para instalar la última versión del modpack y esperamos a que se instale completamente.</p>
             <img src="images/image18.png" alt="">
             <br><br>
-            <h3>Paso 3: Configurar Instancia</h3>
+            <h3 id="no-premium-paso3">Paso 3: Configurar Instancia</h3>
             <p>Una vez todo instalado le asignaremos más RAM a nuestra instancia, esto debido a la cantidad de mods y el mal rendimiento que tiene Java.</p>
             <p>Para esto presionaremos en editar instalación.</p>
             <img src="images/image13.png" alt="">
@@ -124,37 +145,95 @@
             </table>
             <img src="images/image12.png" alt="">
             <br><br>
-            <h3>Paso 4: Agregar Mods Extras</h3>
+            <h3 id="no-premium-paso4">Paso 4: Agregar Mods Extras</h3>
             <p>Una vez asignada la memoria, agregaremos los mods extras a la instancia, para esto abriremos la carpeta del modpack.</p>
             <img src="images/image29.png" alt="">
             <p>Entramos a la carpeta de mods y pegaremos los 4 mods que están en el canal de Discord a la carpeta mods.</p>
             <img src="images/image9.png" alt="" class="mods2">
             <img src="images/image10.png" alt="" class="mods3">
             <img src="images/image16.png" alt="" class="mods4">
-            <h3>Paso 5: Jugar</h3>
+            <h3 id="no-premium-paso5">Paso 5: Jugar</h3>
             <p>Para finalizar la configuración No Premium iremos a multiplayer y añadiremos el server con la IP: noxmera.holy.gg</p>
             <img src="images/image24.png" alt="" class="server">
         </div>
     </section>
     <br><br>
-    <section class="extras">
+    <section id="extras" class="extras">
         <h2>Extras</h2>
-        <h3>Configuración para mejor rendimiento:</h3>
+        <h3 id="extras-paso1">Configuración para mejor rendimiento:</h3>
         <img src="images/image25.png" alt="" class="mods2">
         <img src="images/image26.png" alt="" class="mods3">
         <img src="images/image11.png" alt="" class="mods4">
         <br><br>
-        <h3>Configuración para mejora visual (alto consumo de memoria):</h3>
+        <h3 id="extras-paso2">Configuración para mejora visual (alto consumo de memoria):</h3>
         <img src="images/image14.png" alt="" class="mods2">
         <img src="images/image21.png" alt="" class="mods3">
         <img src="images/image19.png" alt="" class="mods4">
         <br><br>
-        <h3>Configuración para rendimiento + visual (recomendado):</h3>
+        <h3 id="extras-paso3">Configuración para rendimiento + visual (recomendado):</h3>
         <img src="images/image31.png" alt="" class="mods2">
         <img src="images/image1.png" alt="" class="3">
     </section>
     <footer>
         <p>noxmera.holy.gg</p>
     </footer>
+
+    <script>
+        let currentActiveId = ''; // ID actualmente activo
+        let lastScrollTop = 0; // Posición del scroll previa
+
+        function updateActiveSectionAndStep() {
+            const sidebarLinks = document.querySelectorAll('#sidebar ul li a');
+            const validIds = Array.from(sidebarLinks).map((link) => link.getAttribute('href').replace('#', '')); // Extraer los IDs válidos
+            let newActiveId = currentActiveId; // Inicialmente, usamos el ID activo actual
+            const scrollTop = window.scrollY || document.documentElement.scrollTop; // Scroll actual
+            const scrollDirection = scrollTop > lastScrollTop ? 'down' : 'up'; // Dirección del scroll
+
+            // Detectar el elemento visible en función de la dirección del scroll
+            validIds.forEach((id) => {
+                const element = document.getElementById(id);
+                if (element) {
+                    const rect = element.getBoundingClientRect();
+                    const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+
+                    // Si el scroll es hacia abajo, detectamos el elemento en la mitad superior visible
+                    if (scrollDirection === 'down' && rect.top >= 0 && rect.top < viewportHeight * 0.5) {
+                        newActiveId = id;
+                    }
+
+                    // Si el scroll es hacia arriba, detectamos el elemento en la mitad inferior visible
+                    if (scrollDirection === 'up' && rect.bottom > viewportHeight * 0.5 && rect.bottom <= viewportHeight) {
+                        newActiveId = id;
+                    }
+                }
+            });
+
+            // Si el nuevo ID visible es diferente al actual, actualizamos el estado
+            if (newActiveId !== currentActiveId) {
+                currentActiveId = newActiveId;
+
+                // Actualizar el estado del sidebar
+                sidebarLinks.forEach((link) => {
+                    const href = link.getAttribute('href').replace('#', '');
+                    if (href === currentActiveId) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+            }
+
+            // Actualizamos la posición del scroll anterior
+            lastScrollTop = scrollTop;
+        }
+
+        // Escuchar el evento de scroll
+        window.addEventListener('scroll', updateActiveSectionAndStep);
+
+        // Ejecutar al cargar la página
+        document.addEventListener('DOMContentLoaded', updateActiveSectionAndStep);
+
+    </script>
+    
 </body>
 </html>
